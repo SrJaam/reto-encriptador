@@ -4,8 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <input type="text">
+    <div class="container">
+        <h1>Encriptador de Texto</h1>
+        <div class="text-areas">        
+            <textarea id="cifrarTexto" placeholder="Escribe aquí tu texto"></textarea>
+            <textarea id="decifrarTexto" placeholder="Texto cifrado o descifrado" readonly></textarea>
+        </div>
+        <div class="buttons">
+            <button id="encryptButton" onclick="cifrarTexto()">Cifrar</button>
+            <button id="decryptButton" onclick="decifrarTexto()" >Descifrar</button>
+            <button id="copyButton" onclick="copyText()">Copiar texto cifrado</button>
+        
+        </div>    
+        
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>

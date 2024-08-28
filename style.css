@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    
+    
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.text-areas {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 400px;
+    height: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+    margin-left: 10px;
+}
+
+.buttons {
+    margin-bottom: 20px;
+}
+
+#encryptButton {
+    background-color: #000078;
+}
+
+#decryptButton {
+    background-color: #6c757d;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+#copyButton {
+    background-color: #000078;
+}
+
+#copyButton:hover {
+    background-color: #000078;
+}
